@@ -14,7 +14,7 @@ body {
   position: relative;
   height: 80vh;
   width: 80vw;
-  margin: 10vh 10vw;
+  margin: 10vh 10vwcd ;
 }
 
 .slider-container {
@@ -115,4 +115,10 @@ body {
 }
 .s4 {
   background-image: url(ressources/pexels-alexis-ricardo-alaurin-6590699.jpg);
+}
+.s5 {
+  background-image: url(ressources/pexels-harish-mohan-14873863.jpg);
+}
+.s6 {
+  background-image: url(ressources/pexels-paulo-santos-10930305.jpg);
 }

@@ -3,6 +3,8 @@ const btnLeft = document.querySelector(".btn-prev");
 const container = document.querySelector(".container");
 const slides = Array.from(document.querySelectorAll(".slide"));
 const indexIndication = document.querySelector(".counter span:nth-child(1)");
+const total_images = document.querySelector(".counter span:nth-child(2)")
+total_images.innerHTML = slides.length
 let index = 0;
 function jumpping(){
     gsap.to(container, {
